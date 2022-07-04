@@ -1,8 +1,4 @@
-import {
-    createSlice,
-    createAsyncThunk,
-    isPlainObject
-} from "@reduxjs/toolkit";
+import {createSlice, createAsyncThunk, isPlainObject} from "@reduxjs/toolkit";
 import axios from "../../axios";
 export const fetchPosts = createAsyncThunk('posts/fetchPosts', async () => {
     const {
@@ -34,7 +30,7 @@ const initialState = {
 const postsSlice = createSlice({
     name: 'posts',
     initialState,
-    reducers: {},
+    reducer: {},
     extraReducers: {
         //Statya olish
         [fetchPosts.pending]: (state) => {

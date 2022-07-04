@@ -4,7 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Grid from '@mui/material/Grid';
 
-import  axios  from "../axios";
+import { axios } from "../axios";
 
 
 import { Post } from '../components/Post';
