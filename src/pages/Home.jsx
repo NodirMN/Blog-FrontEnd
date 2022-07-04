@@ -4,7 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Grid from '@mui/material/Grid';
 
-import { axios } from "../axios";
+import  axios  from "../axios";
 
 
 import { Post } from '../components/Post';
@@ -73,7 +73,7 @@ export const Home = () => {
                 text: "When displaying three lines or more, the avatar is not aligned at the top. You should set the prop to align the avatar at the top",
               },
             ]}
-            isLoading={true}
+            isLoading={false}
           />
         </Grid>
       </Grid>
