@@ -73,7 +73,7 @@ export const Home = () => {
                 text: "When displaying three lines or more, the avatar is not aligned at the top. You should set the prop to align the avatar at the top",
               },
             ]}
-            isLoading={false}
+            isLoading={true}
           />
         </Grid>
       </Grid>
